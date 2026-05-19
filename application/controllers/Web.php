@@ -23,7 +23,10 @@ class Web extends CI_Controller
         $this->load->view('template_sederhana/v_footer',$data);
     }
 
-    public function profil(){
-        
+    public function profile(){
+        $data['judul'] = "Halaman profil";
+        $this->load->view('template_sederhana/v_header', $data);
+        $this->load->view('template_sederhana/v_profil', $data);
+        $this->load->view('template_sederhana/v_footer', $data);
     }
 }
