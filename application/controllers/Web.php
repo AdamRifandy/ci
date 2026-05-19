@@ -22,4 +22,8 @@ class Web extends CI_Controller
         $this->load->view('template_sederhana/v_about',$data);
         $this->load->view('template_sederhana/v_footer',$data);
     }
+
+    public function profil(){
+        
+    }
 }
