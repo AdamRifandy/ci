@@ -17,6 +17,6 @@ class Belajar extends CI_Controller {
 			'nilai_pertama' => "Cara parsing data dengan menggunakan assosiatif array",
 			'nilai_kedua' => "Ini adalah nilai kedua dari data yang di parsing"
 		);
-		$this->load->view('belajar_views', $data_assosiatif);
+		$this->load->view('v_belajar', $data_assosiatif);
 	}
 }
