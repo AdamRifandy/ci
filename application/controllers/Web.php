@@ -13,7 +13,7 @@ class Web extends CI_Controller
         $data['judul'] = "Halaman depan";
         // $this->load->view('v_index',$data);
         $this->load->view('template_sederhana/v_header',$data);
-        $this->load->view('template_sederhana/v_index_dynamic',$data);
+        $this->load->view('template_sederhana/v_index',$data);
         $this->load->view('template_sederhana/v_footer',$data);
     }
     public function about(){
