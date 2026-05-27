@@ -11,10 +11,6 @@ class Practice extends CI_Controller {
 	
 	public $account = [
 		[
-			"username" => "andy",
-			"password" => "akusayangpira123"
-		],
-		[
 			"username" => "pira",
 			"password" => "12345678"
 		]
